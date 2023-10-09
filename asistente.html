@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/asistente.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="brand">
+                <h2>Weigth <span>Balance</span> </h2>
+            </div>
+            
+            <ul class="menu">
+                <li><a href="index.html">Iniciar sesión</a></li>
+                <li><a href="asistente.html">Asistente</a></li>
+                <li><a href="cuidado.html">Mi cuidado</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+<br><br>
+<div class="container">
+    <div id="calculator">
+        <h1>¡Veamos tus valores nutricionales!</h1>
+        <br>
+        <input type="number" id="weigth" placeholder="Peso(kg)">
+        <br> <br><br>
+        <input type="number" id="heigth" placeholder="Altura">
+        <br><br><br>
+        <button onclick="calculatorIMC()">Calcular IMC</button>
+        
+        
+        <div id="result"></div>
+    </div>
+</div>
+</body>
+</html>
